@@ -15,10 +15,10 @@ public class AnnotatedStepTest {
 
         WebSteps steps = new WebSteps();
 
-        steps.MainPage();
-        steps.SearchForRepository(REPOSITORY);
-        steps.ClickOnRepositoryLink(REPOSITORY);
-        steps.OpenIssueTab();
-        steps.ShouldSeeIssueWithNumber(ISSUE_NUMBER);
+        steps.mainPage();
+        steps.searchForRepository(REPOSITORY);
+        steps.clickOnRepositoryLink(REPOSITORY);
+        steps.openIssueTab();
+        steps.shouldSeeIssueWithNumber(ISSUE_NUMBER);
     }
 }
